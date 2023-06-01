@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    width: 100%;
+    height: 50px;
+    background-color: #604829;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo .logo{
+    width: 50px;
+    position: absolute;
+    left: 150px;
+}
+
+.topo .nav{
+    position: absolute;
+    right: 150px;
+    top: 12px;
+}
+
+.topo .nav a{
+    color: #c4a47c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px;
+    text-shadow: 1px 3px black;
+}
+
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url('./img/parallax-imagem1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: normal;
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    margin: auto;
+}
+
+.conteudo{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.conteudo h2{
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    font-size: 14px;
+    padding-top: 55px;
+}
+
+.conteudo p{
+    width: 70%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.conteudo .img-paralax-um{
+    width: 100%;
+    height: 300px;
+    background-image: url('./img/parallax-imagem2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px 0;
+}
+
+
+.img-paralax-um h3{
+    font-family: 'Fraunces' serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+    background-color: #604829;
+    width: 20%;
+    padding: 5px;
+    position: absolute;
+    top: 135px;
+    left: 40%;
+}
+
+.conteudo .img-paralax-dois{
+    background-image: url('./img/parallax-imagem3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.img-paralax-dois h3{
+    font-family: 'Fraunces' serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+    background-color: #604829;
+    margin: auto;
+    width: 20%;
+    padding: 5px;
+    position: absolute;
+    top: 135px;
+    left: 40%;
+}
+
+.contatos{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url('./img/parallax-imagem4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.contatos .subtitulo{
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    background-color: #604829;
+    font-size: 18px;
+    width: 20%;
+    padding: 5px;
+    margin: 35px auto;
+}
+
+.contatos .iframe{
+    margin: auto;
+    padding-bottom: 20px;
+  
+}
+
+.contatos .meios-contato{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #604829;
+    width: 45%;
+    padding: 5px;
+    line-height: 25px;
+    margin: 8px auto;
+    text-shadow: 1px 3px black;
+}
+
+.horarios{
+    width: 100%;
+    height: 600px;
+    margin-top: -40px;
+    background-image: url('./img/cafeteria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Oswald', sans-serif;
+    color: #fff;
+}
+
+.horarios h2{
+    font-size: 12px;
+    padding: 70px;
+    margin: 30px;
+    text-align: center;
+}
+
+.horarios .lista{
+    list-style: none;
+    font-size: 12px; 
+    width: 40%;
+    margin: auto;
+}
+
+.lista li{
+    position: relative;
+    padding: 5px;
+    
+}
+
+li div{
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+li p{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li span{
+    color:#c4a47c;
+}
+
+.rodape{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+    position: relative;
+}
+
+.rodape p{
+    padding: 5px;
+}
+
+.rodape span{
+    color: #c4a47c;
+}
+
+.rodape .link{
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    top: -14px;
+}
